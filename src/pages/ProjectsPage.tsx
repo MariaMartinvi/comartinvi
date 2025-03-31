@@ -7,14 +7,14 @@ const allProjects: ProjectType[] = [
   {
     id: 1,
     title: 'Mi Cuentacuentos',
-    imageUrl: '/public/cuentacuentos.jpg',
+    imageUrl: '/cuentacuentos.jpg',
     categories: ['comunicación', 'contenidos', 'diseño'],
     slug: 'cuentacuentos'
   },
   {
     id: 2,
     title: 'Wasapeo',
-    imageUrl: '/public/freud.jpg',
+    imageUrl: '/freud.jpg',
     categories: ['diseño'],
     slug: 'wasapeo'
   }

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Logo = () => (
   <Link to="/" className="flex items-center space-x-2 text-2xl font-bold uppercase tracking-wide">
     <img
-      src="/public/loguito.png" // Ruta de la imagen en la carpeta public
+      src="/loguito.png" // Ruta de la imagen en la carpeta public
       alt="Logo Comartinvi"
       className="w-8 h-8 object-contain" // Mantiene las proporciones del logo
     />

@@ -32,7 +32,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <img
-                src="/public/pans.jpg"
+                src="/pans.jpg"
                 alt="About Comartinvi"
                 className="w-full h-auto rounded-lg shadow-lg"
               />

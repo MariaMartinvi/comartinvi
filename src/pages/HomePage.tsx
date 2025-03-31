@@ -73,7 +73,7 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img
-                src="https://ext.same-assets.com/543785121/3467343125.jpeg"
+                src="/portada.jpg"
                 alt="About Comartinvi"
                 className="w-full h-auto rounded-lg shadow-lg"
               />

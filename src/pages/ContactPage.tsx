@@ -34,7 +34,7 @@ const ContactPage = () => {
           subject: formData.subject,
           message: formData.message,
         },
-        '9waMYOwGDpOaLNyomdiE8' // Reemplaza con tu Public Key
+        'PmEP-vrauOJhVTHt0' // Reemplaza con tu Public Key
       )
       .then(
         (result) => {

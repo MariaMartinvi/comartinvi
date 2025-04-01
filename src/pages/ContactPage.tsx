@@ -26,8 +26,8 @@ const ContactPage = () => {
   
     emailjs
       .send(
-        'xcq64id', // Reemplaza con tu Service ID
-        '4o1gd3m', // Reemplaza con tu Template ID
+        'service_xcq64id', // Reemplaza con tu Service ID
+        'template_9ib4dun', // Reemplaza con tu Template ID
         {
           name: formData.name,
           email: formData.email,

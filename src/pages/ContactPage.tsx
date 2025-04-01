@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser'
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -19,12 +20,32 @@ const ContactPage = () => {
     }));
   };
 
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send the form data to a server
-    console.log('Form submitted:', formData);
-    setFormSubmitted(true);
-
+  
+    emailjs
+      .send(
+        'xcq64id', // Reemplaza con tu Service ID
+        '4o1gd3m', // Reemplaza con tu Template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        '9waMYOwGDpOaLNyomdiE8' // Reemplaza con tu Public Key
+      )
+      .then(
+        (result) => {
+          console.log('Email enviado:', result.text);
+          setFormSubmitted(true);
+        },
+        (error) => {
+          console.error('Error al enviar el email:', error.text);
+        }
+      );
+  
     // Reset form after submission
     setFormData({
       name: '',
@@ -32,7 +53,7 @@ const ContactPage = () => {
       subject: '',
       message: '',
     });
-
+  
     // Reset submission status after 5 seconds
     setTimeout(() => {
       setFormSubmitted(false);

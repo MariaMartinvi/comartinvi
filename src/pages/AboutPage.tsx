@@ -16,7 +16,7 @@ const AboutPage = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">La Agencia</h1>
             <p className="text-xl">
               Comartinvi es una agencia creativa con grandes clientes y una diversidad de proyectos
-              que reflejan nuestra pasión por el diseño, comunicación y contenidos.
+              que reflejan nuestra pasión por el diseño, comunicación y las operaciones.
             </p>
           </motion.div>
         </div>
@@ -46,8 +46,8 @@ const AboutPage = () => {
               <p className="text-lg mb-4">
                 Desde nuestros inicios, hemos estado comprometidos con la creación de experiencias
                 de marca únicas y memorables. Fundada por un equipo de profesionales apasionados
-                por el diseño y la comunicación, Comartinvi ha crecido para convertirse en una
-                agencia de referencia en el sector.
+                por el diseño, la comunicación y las operaciones, Comartinvi ha crecido para convertirse en una
+                agencia y consultora de referencia en el sector.
               </p>
               <p className="text-lg mb-6">
                 Entendemos que cada proyecto es único y merece un enfoque personalizado. Por eso,
@@ -128,10 +128,10 @@ const AboutPage = () => {
             {[
               { title: 'Diseño', description: 'Creación de identidades de marca, materiales gráficos y diseño web.' },
               { title: 'Comunicación', description: 'Estrategias de comunicación, gestión de redes sociales y relaciones públicas.' },
-              { title: 'Contenidos', description: 'Creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
+              { title: 'Contenidos', description: 'Operaciones para la creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
               { title: 'Audiovisual', description: 'Producción de vídeos, fotografía y contenido multimedia de alta calidad.' },
               { title: 'Digital', description: 'Gestión de presencia online, marketing digital y optimización de conversión.' },
-              { title: 'Producción', description: 'Producción de eventos, sesiones fotográficas y proyectos especiales.' }
+              { title: 'Operaciones y Producción', description: 'Operaciones y producción de eventos, sesiones fotográficas y proyectos especiales.' }
             ].map((service, index) => (
               <motion.div
                 key={service.title}

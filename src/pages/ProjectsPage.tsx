@@ -6,17 +6,19 @@ import type { ProjectType } from '../components/projects/ProjectCard';
 const allProjects: ProjectType[] = [
   {
     id: 1,
-    title: 'Mi Cuentacuentos',
-    imageUrl: '/cuentacuentos.jpg',
+    title: 'Audiogretel',
+    imageUrl: '/audiogretel.JPG',
     categories: ['comunicación', 'contenidos', 'diseño'],
-    slug: 'cuentacuentos'
+    slug: 'audiogretel',
+    websiteUrl: 'https://audiogretel.com' // Add your website URL here
   },
   {
     id: 2,
-    title: 'Wasapeo',
+    title: 'Chatsalsa',
     imageUrl: '/freud.jpg',
     categories: ['diseño'],
-    slug: 'wasapeo'
+    slug: 'chatsalsa',
+    websiteUrl: 'https://chatsalsa.com' // Add your website URL here
   }
 ];
 
@@ -36,7 +38,7 @@ const ProjectsPage = () => {
             <p className="text-xl">
               Echa un vistazo a nuestro portfolio. Comartinvi es una Agencia Creativa con grandes clientes y una gran
               diversidad de proyectos que reflejan la polivalencia, creatividad y pasión de nuestro equipo de diseño,
-              comunicación y contenidos. Online y offline.
+              comunicación y operaciones Online y offline.
             </p>
             <p className="text-xl mt-4">
               Somos expertos en gastronomía, estilo de vida y tendencias. Trabajamos desde la estrategia a su

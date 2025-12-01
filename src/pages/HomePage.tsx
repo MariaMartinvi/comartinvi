@@ -7,17 +7,19 @@ import ProjectsGrid from '../components/projects/ProjectsGrid';
 const featuredProjects: ProjectType[] = [
   {
     id: 1,
-    title: 'Mi Cuentacuentos',
-    imageUrl: '/cuentacuentos.jpg',
+    title: 'Audiogretel',
+    imageUrl: '/audiogretel.JPG',
     categories: ['comunicación', 'contenidos', 'diseño'],
-    slug: 'cuentacuentos'
+    slug: 'audiogretel',
+    websiteUrl: 'https://audiogretel.com' // Add your website URL here
   },
   {
     id: 2,
-    title: 'Wasapeo',
+    title: 'Chatsalsa',
     imageUrl: '/freud.jpg',
     categories: ['diseño'],
-    slug: 'wasapeo'
+    slug: 'chatsalsa',
+    websiteUrl: 'https://chatsalsa.com' // Add your website URL here
   }
 
 ];
@@ -37,7 +39,7 @@ const HomePage = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Diseñamos experiencias creativas que conectan con las personas</h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300">
               Somos Comartinvi, una agencia creativa con grandes clientes y una diversidad de proyectos
-              que reflejan nuestra pasión por el diseño y la comunicación.
+              que reflejan nuestra pasión por el diseño, la comunicación y las operaciones.
             </p>
             <Link to="/contact" className="btn btn-primary">
               Hablemos de tu proyecto
@@ -110,10 +112,10 @@ const HomePage = () => {
             {[
               { title: 'Diseño', description: 'Creación de identidades de marca, materiales gráficos y diseño web.' },
               { title: 'Comunicación', description: 'Estrategias de comunicación, gestión de redes sociales y relaciones públicas.' },
-              { title: 'Contenidos', description: 'Creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
+              { title: 's', description: 'Creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
               { title: 'Audiovisual', description: 'Producción de vídeos, fotografía y contenido multimedia de alta calidad.' },
               { title: 'Digital', description: 'Gestión de presencia online, marketing digital y optimización de conversión.' },
-              { title: 'Producción', description: 'Producción de eventos, sesiones fotográficas y proyectos especiales.' }
+              { title: 'Operaciones y Producción', description: 'Producción de eventos, sesiones fotográficas y proyectos especiales.' }
             ].map((service, index) => (
               <motion.div
                 key={service.title}

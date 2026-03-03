@@ -15,7 +15,7 @@ export default {
         "beige-light": "#d3c6a7",
       },
       fontFamily: {
-        sans: ["Roboto", "sans-serif"],
+        sans: ["JetBrains Mono", "monospace"],
       },
       container: {
         center: true,

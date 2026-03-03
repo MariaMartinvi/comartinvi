@@ -52,7 +52,7 @@ const AboutPage = () => {
               <p className="text-lg mb-6">
                 Entendemos que cada proyecto es único y merece un enfoque personalizado. Por eso,
                 trabajamos estrechamente con nuestros clientes para entender sus necesidades y
-                objetivos, y desarrollar soluciones tecnológicas ycreativas que superan sus expectativas.
+                objetivos, y desarrollar soluciones tecnológicas y creativas que superan sus expectativas.
               </p>
             </motion.div>
           </div>

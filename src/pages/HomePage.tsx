@@ -36,7 +36,7 @@ const HomePage = () => {
             transition={{ duration: 0.6 }}
             className="max-w-3xl"
           >
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Diseñamos experiencias creativas que conectan con las personas</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Diseñamos experiencias tecnológicas y creativas que conectan con las personas</h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300">
               Somos Comartinvi, una agencia tecnológica con grandes clientes y una diversidad de proyectos
               que reflejan nuestra pasión por la creatividad, el diseño, la comunicación y las operaciones.

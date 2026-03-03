@@ -36,7 +36,7 @@ const ProjectsPage = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Proyectos</h1>
             <p className="text-xl">
-              Echa un vistazo a nuestro portfolio. Comartinvi es una Agencia Creativa con grandes clientes y una gran
+              Echa un vistazo a nuestro portfolio. Comartinvi es una Agencia Tecnológica con grandes clientes y una gran
               diversidad de proyectos que reflejan la polivalencia, creatividad y pasión de nuestro equipo de diseño,
               comunicación y operaciones Online y offline.
             </p>

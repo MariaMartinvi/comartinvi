@@ -38,8 +38,8 @@ const HomePage = () => {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Diseñamos experiencias creativas que conectan con las personas</h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300">
-              Somos Comartinvi, una agencia creativa con grandes clientes y una diversidad de proyectos
-              que reflejan nuestra pasión por el diseño, la comunicación y las operaciones.
+              Somos Comartinvi, una agencia tecnológica con grandes clientes y una diversidad de proyectos
+              que reflejan nuestra pasión por la creatividad, el diseño, la comunicación y las operaciones.
             </p>
             <Link to="/contact" className="btn btn-primary">
               Hablemos de tu proyecto
@@ -54,7 +54,7 @@ const HomePage = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Nuestros Proyectos</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Echa un vistazo a nuestro portfolio. Comartinvi es una Agencia Creativa con grandes clientes y una gran
+              Echa un vistazo a nuestro portfolio. Comartinvi es una Agencia Tecnológica con grandes clientes y una gran
               diversidad de proyectos que reflejan la polivalencia, creatividad y pasión de nuestro equipo.
             </p>
           </div>
@@ -83,7 +83,7 @@ const HomePage = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre Nosotros</h2>
               <p className="text-lg mb-6">
-                Comartinvi es una agencia creativa especializada en diseño, comunicación y contenidos.
+                Comartinvi es una agencia tecnología especializada en creatividad, diseño, comunicación y contenidos.
                 Trabajamos online y offline, tanto con negocios familiares como con grandes marcas.
               </p>
               <p className="text-lg mb-8">
@@ -104,7 +104,7 @@ const HomePage = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Nuestros Servicios</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ofrecemos soluciones integrales para las necesidades de tu marca o negocio.
+              Ofrecemos soluciones integrales personalizadaspara las necesidades de tu marca o negocio.
             </p>
           </div>
 
@@ -112,10 +112,10 @@ const HomePage = () => {
             {[
               { title: 'Diseño', description: 'Creación de identidades de marca, materiales gráficos y diseño web.' },
               { title: 'Comunicación', description: 'Estrategias de comunicación, gestión de redes sociales y relaciones públicas.' },
-              { title: 's', description: 'Creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
+              { title: 'Posicionamiento', description: 'Creación de contenido editorial, fotográfico y audiovisual para diversas plataformas.' },
               { title: 'Audiovisual', description: 'Producción de vídeos, fotografía y contenido multimedia de alta calidad.' },
               { title: 'Digital', description: 'Gestión de presencia online, marketing digital y optimización de conversión.' },
-              { title: 'Operaciones y Producción', description: 'Producción de eventos, sesiones fotográficas y proyectos especiales.' }
+              { title: 'Operaciones y Producción', description: 'Optimización de procesos, reducción de costes, productividad y proyectos especiales.' }
             ].map((service, index) => (
               <motion.div
                 key={service.title}

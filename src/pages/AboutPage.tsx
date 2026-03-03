@@ -15,8 +15,8 @@ const AboutPage = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">La Agencia</h1>
             <p className="text-xl">
-              Comartinvi es una agencia creativa con grandes clientes y una diversidad de proyectos
-              que reflejan nuestra pasión por el diseño, comunicación y las operaciones.
+              Comartinvi es una agencia tecnológica con grandes clientes y una diversidad de proyectos
+              que reflejan nuestra pasión por la creatividad, el diseño, comunicación y las operaciones.
             </p>
           </motion.div>
         </div>
@@ -46,13 +46,13 @@ const AboutPage = () => {
               <p className="text-lg mb-4">
                 Desde nuestros inicios, hemos estado comprometidos con la creación de experiencias
                 de marca únicas y memorables. Fundada por un equipo de profesionales apasionados
-                por el diseño, la comunicación y las operaciones, Comartinvi ha crecido para convertirse en una
+                por la tecnología, el diseño, la comunicación y las operaciones, Comartinvi ha crecido para convertirse en una
                 agencia y consultora de referencia en el sector.
               </p>
               <p className="text-lg mb-6">
                 Entendemos que cada proyecto es único y merece un enfoque personalizado. Por eso,
                 trabajamos estrechamente con nuestros clientes para entender sus necesidades y
-                objetivos, y desarrollar soluciones creativas que superan sus expectativas.
+                objetivos, y desarrollar soluciones tecnológicas ycreativas que superan sus expectativas.
               </p>
             </motion.div>
           </div>

@@ -19,6 +19,22 @@ const allProjects: ProjectType[] = [
     categories: ['diseño'],
     slug: 'chatsalsa',
     websiteUrl: 'https://chatsalsa.com' // Add your website URL here
+  },
+  {
+    id: 3,
+    title: 'Rankcoworker',
+    imageUrl: '/rankcoworker.jpg',
+    categories: ['diseño', 'operaciones'],
+    slug: 'rankcoworker',
+    websiteUrl: 'https://rankcoworker.com'
+  },
+  {
+    id: 4,
+    title: 'Anycoworker',
+    imageUrl: '/anycoworker.jpg',
+    categories: ['diseño', 'comunicación'],
+    slug: 'anycoworker',
+    websiteUrl: 'https://www.anycoworker.com'
   }
 ];
 

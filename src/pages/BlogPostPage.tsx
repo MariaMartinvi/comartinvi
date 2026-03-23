@@ -1,37 +1,11 @@
 import { motion } from "framer-motion";
 import { useParams, Link } from "react-router-dom";
-import type { BlogPost } from "../components/blog/BlogCard";
-
-// Mismo origen que en BlogListPage; más adelante podremos centralizarlo
-const samplePosts: BlogPost[] = [
-  {
-    id: 1,
-    slug: "primer-articulo-ejemplo",
-    title: "Primer artículo de ejemplo",
-    excerpt:
-      "Este es un texto de muestra para el blog de Comartinvi. Aquí podrás compartir historias, casos de éxito y reflexiones.",
-    category: "Inspiración",
-    date: "Marzo 2026",
-    readTime: "4 min",
-    imageUrl: "/pans.jpg",
-  },
-  {
-    id: 2,
-    slug: "segundo-articulo-ejemplo",
-    title: "Segundo artículo de ejemplo",
-    excerpt:
-      "Otro ejemplo de artículo para mostrar la estructura del blog, con imagen, categoría, fecha y tiempo de lectura.",
-    category: "Proyectos",
-    date: "Marzo 2026",
-    readTime: "3 min",
-    imageUrl: "/freud.jpg",
-  },
-];
+import { blogPosts } from "../data/blogPosts";
 
 const BlogPostPage = () => {
   const { slug } = useParams<{ slug: string }>();
 
-  const post = samplePosts.find((p) => p.slug === slug);
+  const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     return (
@@ -82,25 +56,29 @@ const BlogPostPage = () => {
       {/* Contenido del artículo (placeholder) */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-3xl">
-          <div className="prose prose-lg max-w-none">
-            <p>
-              Este es un contenido de ejemplo para el artículo del blog. Cuando
-              tengamos los textos definitivos, sustituiremos este bloque por el
-              contenido real del post.
-            </p>
-            <p>
-              La estructura ya está preparada para que puedas compartir
-              historias, aprendizajes de proyectos como{" "}
-              <a
-                href="https://audiogretel.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                AudioGretel
-              </a>{" "}
-              u otros casos de éxito.
-            </p>
-          </div>
+          {"content" in post && post.content ? (
+            post.content
+          ) : (
+            <div className="prose prose-lg max-w-none">
+              <p>
+                Este es un contenido de ejemplo para el artículo del blog. Cuando
+                tengamos los textos definitivos, sustituiremos este bloque por el
+                contenido real del post.
+              </p>
+              <p>
+                La estructura ya está preparada para que puedas compartir
+                historias, aprendizajes de proyectos como{" "}
+                <a
+                  href="https://audiogretel.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AudioGretel
+                </a>{" "}
+                u otros casos de éxito.
+              </p>
+            </div>
+          )}
 
           <div className="mt-12">
             <Link to="/blog" className="btn btn-outline">

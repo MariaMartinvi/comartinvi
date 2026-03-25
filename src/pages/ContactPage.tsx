@@ -224,10 +224,15 @@ const ContactPage = () => {
 
               {/* Simple Map or Image Placeholder */}
               <div className="mt-8 bg-gray-200 rounded-lg overflow-hidden shadow-lg h-64">
-                <img
-                  src="https://ext.same-assets.com/341908414/2482562739.jpeg"
-                  alt="Comartinvi Location"
-                  className="w-full h-full object-cover"
+                <iframe
+                  title="Ubicacion Comartinvi"
+                  className="w-full h-full"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  // Dirección usada en el texto de la página de contacto
+                  src="https://www.google.com/maps?q=Marti%20136%2C%2008024%20Barcelona%2C%20Espa%C3%B1a&output=embed"
+                  allowFullScreen
                 />
               </div>
             </motion.div>

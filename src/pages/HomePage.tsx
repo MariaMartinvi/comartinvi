@@ -36,6 +36,14 @@ const featuredProjects: ProjectType[] = [
     categories: ['diseño', 'comunicación'],
     slug: 'anycoworker',
     websiteUrl: 'https://www.anycoworker.com'
+  },
+  {
+    id: 5,
+    title: 'Informe.pro',
+    imageUrl: '/inorme.jpg',
+    categories: ['sector financiero', 'diseño'],
+    slug: 'informe-pro',
+    websiteUrl: 'https://www.informe.pro'
   }
 
 ];

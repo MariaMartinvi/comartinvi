@@ -42,7 +42,7 @@ const allProjects: ProjectType[] = [
     imageUrl: '/inorme.jpg',
     categories: ['sector financiero', 'diseño'],
     slug: 'informe-pro',
-    websiteUrl: 'https://www.informe.pro'
+    websiteUrl: 'https://www.inorme.pro'
   }
 ];
 
